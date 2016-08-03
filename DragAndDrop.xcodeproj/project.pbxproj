@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A06A52C81D517D7B00F11656 /* JYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A06A52C71D517D7B00F11656 /* JYTextField.m */; };
+		A06A52CB1D517F7100F11656 /* JYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A06A52CA1D517F7100F11656 /* JYTextView.m */; };
 		A074AE2D1D4F25A00086FE3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A074AE2C1D4F25A00086FE3F /* AppDelegate.m */; };
 		A074AE301D4F25A00086FE3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A074AE2F1D4F25A00086FE3F /* main.m */; };
 		A074AE331D4F25A00086FE3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A074AE321D4F25A00086FE3F /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A06A52C61D517D7B00F11656 /* JYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTextField.h; sourceTree = "<group>"; };
+		A06A52C71D517D7B00F11656 /* JYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTextField.m; sourceTree = "<group>"; };
+		A06A52C91D517F7100F11656 /* JYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTextView.h; sourceTree = "<group>"; };
+		A06A52CA1D517F7100F11656 /* JYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTextView.m; sourceTree = "<group>"; };
 		A074AE281D4F25A00086FE3F /* DragAndDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragAndDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A074AE2B1D4F25A00086FE3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A074AE2C1D4F25A00086FE3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +76,10 @@
 				A074AE361D4F25A00086FE3F /* Main.storyboard */,
 				A074AE391D4F25A00086FE3F /* Info.plist */,
 				A074AE2E1D4F25A00086FE3F /* Supporting Files */,
+				A06A52C61D517D7B00F11656 /* JYTextField.h */,
+				A06A52C71D517D7B00F11656 /* JYTextField.m */,
+				A06A52C91D517F7100F11656 /* JYTextView.h */,
+				A06A52CA1D517F7100F11656 /* JYTextView.m */,
 			);
 			path = DragAndDrop;
 			sourceTree = "<group>";
@@ -158,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06A52CB1D517F7100F11656 /* JYTextView.m in Sources */,
 				A074AE331D4F25A00086FE3F /* ViewController.m in Sources */,
 				A074AE301D4F25A00086FE3F /* main.m in Sources */,
 				A074AE2D1D4F25A00086FE3F /* AppDelegate.m in Sources */,
+				A06A52C81D517D7B00F11656 /* JYTextField.m in Sources */,
 				A074AE431D4F283E0086FE3F /* DragDropImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

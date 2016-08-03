@@ -61,11 +61,11 @@ NSString *kPrivateDragUTI = @"com.yourcompany.cocoadraganddrop";
             //register for all the image types we can display
         // NSFilenamesPboardType,
         // pdf kUTTypeCompositeContent
-        NSArray *array = [NSArray arrayWithObjects:kUTTypeDirectory,kUTTypePlainText,kUTTypeCompositeContent,kUTTypeItem, nil];
+//        NSArray *array = [NSArray arrayWithObjects:kUTTypeDirectory,kUTTypePlainText,kUTTypeCompositeContent,kUTTypeItem, nil];
         // 注册可以接收拖拽的文件类型
 //        [self registerForDraggedTypes:[NSImage imageTypes]];
 //        [self registerForDraggedTypes:array];
-        
+        [self registerForDraggedTypes:[NSArray arrayWithObject:NSCreateFilenamePboardType(@"php")]];
         self.allowDrag = NO;
         self.allowDrop = YES;
     }
@@ -236,7 +236,6 @@ NSString *kPrivateDragUTI = @"com.yourcompany.cocoadraganddrop";
         default:
             NSLog(@"NSDraggingContextWithinApplication");
             return NSDragOperationCopy;
-//            return NSDragOperationNone;
             break;
     }
 }
